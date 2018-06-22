@@ -1,0 +1,934 @@
+/* LESS classes */
+/* Gridsystem */
+/*
+  960 Grid System ~ Core CSS.
+  Learn more ~ http://960.gs/
+
+  Licensed under GPL and MIT.
+*/
+/* Container
+----------------------------------------------------------------------------------------------------*/
+.container_16 {
+  margin: 0 auto;
+  width: 960px;
+  overflow: hidden;
+  clear: both;
+}
+/* Grid >> Global
+----------------------------------------------------------------------------------------------------*/
+.grid_1,
+.grid_2,
+.grid_3,
+.grid_4,
+.grid_5,
+.grid_6,
+.grid_7,
+.grid_8,
+.grid_9,
+.grid_10,
+.grid_11,
+.grid_12,
+.grid_13,
+.grid_14,
+.grid_15,
+.grid_16 {
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.push_1,
+.pull_1,
+.push_2,
+.pull_2,
+.push_3,
+.pull_3,
+.push_4,
+.pull_4,
+.push_5,
+.pull_5,
+.push_6,
+.pull_6,
+.push_7,
+.pull_7,
+.push_8,
+.pull_8,
+.push_9,
+.pull_9,
+.push_10,
+.pull_10,
+.push_11,
+.pull_11,
+.push_12,
+.pull_12,
+.push_13,
+.pull_13,
+.push_14,
+.pull_14,
+.push_15,
+.pull_15,
+.push_16,
+.pull_16 {
+  position: relative;
+}
+/* Grid >> Children (Alpha ~ First, Omega ~ Last)
+----------------------------------------------------------------------------------------------------*/
+.alpha {
+  margin-left: 0;
+}
+.omega {
+  margin-right: 0;
+}
+/* Grid >> 16 Columns
+----------------------------------------------------------------------------------------------------*/
+.grid_1 {
+  width: 40px;
+}
+.grid_2 {
+  width: 100px;
+}
+.grid_3 {
+  width: 160px;
+}
+.grid_4 {
+  width: 220px;
+}
+.grid_5 {
+  width: 280px;
+}
+.grid_6 {
+  width: 340px;
+}
+.grid_7 {
+  width: 400px;
+}
+.grid_8 {
+  width: 460px;
+}
+.grid_9 {
+  width: 520px;
+}
+.grid_10 {
+  width: 580px;
+}
+.grid_11 {
+  width: 640px;
+}
+.grid_12 {
+  width: 700px;
+}
+.grid_13 {
+  width: 760px;
+}
+.grid_14 {
+  width: 820px;
+}
+.grid_15 {
+  width: 880px;
+}
+.grid_16 {
+  width: 940px;
+}
+/* Prefix Extra Space >> 16 Columns
+----------------------------------------------------------------------------------------------------*/
+.prefix_1 {
+  padding-left: 60px;
+}
+/*
+.prefix_2 {
+  padding-left: 120px;
+}
+
+.prefix_3 {
+  padding-left: 180px;
+}
+
+.prefix_4 {
+  padding-left: 240px;
+}
+
+.prefix_5 {
+  padding-left: 300px;
+}
+
+.prefix_6 {
+  padding-left: 360px;
+}
+
+.prefix_7 {
+  padding-left: 420px;
+}
+
+.prefix_8 {
+  padding-left: 480px;
+}
+
+.prefix_9 {
+  padding-left: 540px;
+}
+
+.prefix_10 {
+  padding-left: 600px;
+}
+
+.prefix_11 {
+  padding-left: 660px;
+}
+
+.prefix_12 {
+  padding-left: 720px;
+}
+
+.prefix_13 {
+  padding-left: 780px;
+}
+
+.prefix_14 {
+  padding-left: 840px;
+}
+
+.prefix_15 {
+  padding-left: 900px;
+}
+*/
+/* Suffix Extra Space >> 16 Columns
+----------------------------------------------------------------------------------------------------*/
+/*
+.suffix_1 {
+  padding-right: 60px;
+}
+
+.suffix_2 {
+  padding-right: 120px;
+}
+
+.suffix_3 {
+  padding-right: 180px;
+}
+
+.suffix_4 {
+  padding-right: 240px;
+}
+
+.suffix_5 {
+  padding-right: 300px;
+}
+
+.suffix_6 {
+  padding-right: 360px;
+}
+
+.suffix_7 {
+  padding-right: 420px;
+}
+
+.suffix_8 {
+  padding-right: 480px;
+}
+
+.suffix_9 {
+  padding-right: 540px;
+}
+
+.suffix_10 {
+  padding-right: 600px;
+}
+
+.suffix_11 {
+  padding-right: 660px;
+}
+
+.suffix_12 {
+  padding-right: 720px;
+}
+
+.suffix_13 {
+  padding-right: 780px;
+}
+
+.suffix_14 {
+  padding-right: 840px;
+}
+
+.suffix_15 {
+  padding-right: 900px;
+}
+*/
+/* Push Space >> 16 Columns
+----------------------------------------------------------------------------------------------------*/
+/*
+.push_1 {
+  left: 60px;
+}
+*/
+.push_2 {
+  left: 120px;
+}
+/*
+.push_3 {
+  left: 180px;
+}
+
+.push_4 {
+  left: 240px;
+}
+
+.push_5 {
+  left: 300px;
+}
+
+.push_6 {
+  left: 360px;
+}
+
+.push_7 {
+  left: 420px;
+}
+
+.push_8 {
+  left: 480px;
+}
+
+.push_9 {
+  left: 540px;
+}
+
+.push_10 {
+  left: 600px;
+}
+
+.push_11 {
+  left: 660px;
+}
+
+.push_12 {
+  left: 720px;
+}
+
+.push_13 {
+  left: 780px;
+}
+
+.push_14 {
+  left: 840px;
+}
+
+.push_15 {
+  left: 900px;
+}
+*/
+/* Pull Space >> 16 Columns
+----------------------------------------------------------------------------------------------------*/
+/*
+.pull_1 {
+  left: -60px;
+}
+
+.pull_2 {
+  left: -120px;
+}
+
+.pull_3 {
+  left: -180px;
+}
+
+.pull_4 {
+  left: -240px;
+}
+
+.pull_5 {
+  left: -300px;
+}
+
+.pull_6 {
+  left: -360px;
+}
+
+.pull_7 {
+  left: -420px;
+}
+
+.pull_8 {
+  left: -480px;
+}
+
+.pull_9 {
+  left: -540px;
+}
+
+.pull_10 {
+  left: -600px;
+}
+
+.pull_11 {
+  left: -660px;
+}
+
+.pull_12 {
+  left: -720px;
+}
+
+.pull_13 {
+  left: -780px;
+}
+
+.pull_14 {
+  left: -840px;
+}
+
+.pull_15 {
+  left: -900px;
+}
+*/
+/* Sprites */
+/**
+ *	Sprites CSS
+ *
+ *	@author		Andrej Babic
+ */
+.img {
+  background: transparent url(../images/sprite_site.png) no-repeat;
+  display: block;
+}
+.rep {
+  background: transparent url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAB3CAMAAADFPMtGAAAAMFBMVEUAAACrq6vk5OSIiIjFxcU7OztmZmYWExMBAQEmISErJikwKiwyLTIxLC8zLzX///85ZEglAAAAAXRSTlMAQObYZgAAAQFJREFUeNrtlNFuwyAMRW+bBJpgk///23kB14DkTaqqrQ9cO8b4cP0YnKZ1PTtVdr+F7SHawu3esnUJ+6PRHpa1sK1OYtxFMdbrtoQMHZuiPsBzfhTZgwgdN9rrA+ggFR3J3giT+yBlydenMU5DqRWJHeru5O8EpyvaooF6tkUDditpfYJtKWk9gx2VnWYxu/pcI+Tr09y+7x8YsRvw0a8+h4lvEFs77qRup2sT36D3sNwNsjUoR36WpoHUMbTBOG4CNuxRZd5SSMmZNO2QiqtRUXsQtLmiNIph18FIwlxN9peMfeEnnb4mm2yyyT6OHb5eZ8kNsC8wsZcgouzkq//5LyzWpTs5RRTQAAAAAElFTkSuQmCC') repeat-x;
+  display: block;
+}
+/* Repeat-x */
+/* App specific style */
+.github-fork-ribbon {
+  position: absolute;
+  padding: 2px 0;
+  background-color: #333;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.15)));
+  background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15));
+  background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15));
+  background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15));
+  background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15));
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15));
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.5);
+  font: 700 13px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  z-index: 999;
+  pointer-events: auto;
+}
+.github-fork-ribbon a,
+.github-fork-ribbon a:hover {
+  color: #fff;
+  text-decoration: none;
+  text-shadow: 0 -1px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  width: 200px;
+  line-height: 20px;
+  display: inline-block;
+  padding: 2px 0;
+  border-width: 1px 0;
+  border-style: dotted;
+  border-color: #fff;
+  border-color: rgba(255, 255, 255, 0.7);
+}
+.github-fork-ribbon-wrapper {
+  width: 150px;
+  height: 150px;
+  position: fixed;
+  overflow: hidden;
+  top: 0;
+  right: 0;
+  z-index: 999;
+  pointer-events: none;
+}
+.github-fork-ribbon-wrapper .github-fork-ribbon {
+  top: 42px;
+  right: -43px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+/**
+ *	Common CSS
+ *
+ *	@author		Andrej Babic
+ */
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  min-width: 960px;
+  font: 100% Arial, Helvetica, sans-serif;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+a {
+  color: #00e;
+}
+.hide {
+  visibility: hidden;
+  position: absolute;
+}
+ul {
+  list-style-type: none;
+}
+input,
+textarea {
+  outline: none;
+}
+/**
+ *	Book CSS
+ *
+ *	@author		Andrej Babic
+ */
+.book {
+  width: 940px;
+  height: 240px;
+  width: 960px;
+  margin-bottom: -30px;
+}
+.book p {
+  font: italic 18pt Georgia, Helvetica, sans-serif;
+  margin: 20px 10px 20px 0;
+  color: #322d30;
+}
+.book fieldset {
+  border: none;
+}
+.book .name,
+.book .email,
+.book .msg {
+  border: 0;
+  color: #322d30;
+  font: italic 10pt Georgia, Helvetica, sans-serif;
+  background: transparent url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAZCAYAAAAFbs/PAAAAJklEQVR4AWOgExgFo2AUjAJjfdMOIP6PhA2BGEMcJADDhsgYlzgAVkMVvvDSFMMAAAAASUVORK5CYII=') repeat;
+  margin-right: 10px;
+  padding-left: 2px;
+}
+.book .name,
+.book .email {
+  height: 25px;
+  width: 190px;
+}
+.book .msg {
+  margin-top: 20px;
+  line-height: 24px;
+  width: 302px;
+  height: 105px;
+}
+.book .submit {
+  height: 81px;
+  width: 80px;
+  position: absolute;
+  top: 70px;
+  border: 1px solid #C7C6C7;
+  border-radius: 6px;
+  box-shadow: inset 0 0 10px #d8d8d8;
+  background: #fff;
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ffffff), to(#eeeeee));
+  background: -webkit-linear-gradient(top, #ffffff, #eeeeee);
+  background: -moz-linear-gradient(top, #ffffff, #eeeeee);
+  background: -o-linear-gradient(top, #ffffff, #eeeeee);
+  background: -ms-linear-gradient(top, #ffffff, #eeeeee);
+  background: linear-gradient(top, #ffffff, #eeeeee);
+  font: italic 10pt Georgia, Helvetica, sans-serif;
+  font-weight: bold;
+  text-decoration: underline;
+}
+/**
+ *	Header CSS
+ *
+ *	@author		Andrej Babic
+ */
+@keyframes bounce {
+  from {
+    transform: translate3d(0, -10px, 0);
+  }
+  to {
+    transform: translate3d(0, 5px, 0);
+  }
+}
+@-moz-keyframes bounce {
+  from {
+    transform: translate3d(0, -10px, 0);
+  }
+  to {
+    transform: translate3d(0, 5px, 0);
+  }
+}
+@-webkit-keyframes bounce {
+  from {
+    transform: translate3d(0, -10px, 0);
+  }
+  to {
+    transform: translate3d(0, 5px, 0);
+  }
+}
+.outer {
+  background: transparent url(../images/static/header_bg.jpg) repeat-x;
+  height: 320px;
+  width: 100%;
+}
+.up .outer {
+  margin-top: -210px;
+}
+.up .ribbon {
+  cursor: s-resize;
+  margin-top: -10px;
+}
+.cssanimations .up .ribbon.animate {
+  animation: bounce 0.5s infinite alternate;
+  -moz-animation: bounce 0.5s infinite alternate;
+  /* Firefox */
+  -webkit-animation: bounce 0.5s infinite alternate;
+  /* Safari, Chrome */
+  -ms-animation: bounce 0.5s infinite alternate;
+  /* IE */
+}
+.main_header {
+  position: relative;
+  min-height: 135px;
+}
+.main_header hgroup {
+  height: 105px;
+}
+.main_header hgroup .page_title {
+  font: 40pt 'Oleo Script Swash Caps', cursive, Arial;
+  margin: 0;
+  color: #e8e8e8;
+  text-shadow: #333 2px 2px 0;
+  position: absolute;
+  bottom: 9px;
+}
+.main_header hgroup .subheader {
+  font: 10pt Arial, Tahoma, sans-serif;
+  margin-top: 4px;
+  color: #444;
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+}
+.main_header .ribbon {
+  background-position: -814px -240px;
+  width: 62px;
+  height: 133px;
+  position: absolute;
+  left: 53px;
+}
+/**
+ *	Body CSS
+ *
+ *	@author		Andrej Babic
+ */
+.wrapper {
+  min-height: 100%;
+  position: relative;
+}
+.main {
+  margin: 150px 0 50px 0;
+  /* External links */
+}
+.main .external {
+  background: url('data:image/gif;base64,R0lGODlhDAAMAPEEAH9/f+Xl5bKysv///yH5BAUAAAQALAAAAAAMAAwAAAMnSLrc3iLKCJYYOI+q7hBAuFkZNXZYAIAncYHB13oexrladod8/zgJADs=') no-repeat scroll right 2px transparent;
+  padding: 0 15px 0 0;
+}
+.main header {
+  overflow: hidden;
+  margin: 0 auto;
+  float: none;
+  display: block;
+}
+.main header .left,
+.main header .right {
+  margin-top: 10px;
+}
+.main header .left {
+  background-position: -876px -335px;
+  width: 53px;
+  height: 38px;
+  float: left;
+}
+.main header .book_title {
+  font: italic 34pt Georgia, Helvetica, sans-serif;
+  text-align: center;
+  text-shadow: #7C7C7C 1px 1px 0;
+  padding-left: 30px;
+  display: inline;
+}
+.main header .right {
+  background-position: -876px -297px;
+  width: 53px;
+  height: 38px;
+  float: right;
+}
+.main nav {
+  background-position: 0px -240px;
+  width: 814px;
+  height: 320px;
+  margin: 90px auto 0 auto;
+}
+.main .menu {
+  position: relative;
+}
+.main .menu a {
+  display: block;
+  text-indent: -990px;
+  overflow: hidden;
+  position: absolute;
+}
+.main .menu .work {
+  left: 133px;
+  top: 15px;
+  width: 52px;
+  height: 216px;
+}
+.main .menu .bts {
+  left: 239px;
+  top: 11px;
+  width: 76px;
+  height: 221px;
+}
+.main .menu .git {
+  left: 376px;
+  top: 12px;
+  width: 88px;
+  height: 220px;
+}
+.main .menu .about {
+  left: 540px;
+  top: 16px;
+  width: 68px;
+  height: 216px;
+}
+.main .menu .projects {
+  left: 646px;
+  top: 17px;
+  width: 30px;
+  height: 217px;
+}
+.main .gallery li {
+  float: left;
+  width: 33%;
+  margin: 0 !important;
+}
+.main .gallery img {
+  width: 130px;
+  height: 90px;
+}
+.main .main_content {
+  margin: 40px auto 0 auto;
+  display: block;
+  float: none;
+}
+.main .main_content article {
+  overflow: hidden;
+}
+.main .main_content h2 {
+  font-weight: bold;
+  font-size: 30pt;
+  margin: 0;
+}
+.main .main_content h2,
+.main .main_content h3,
+.main .main_content h4 {
+  text-shadow: 0 1px 0 #fff;
+}
+.main .main_content h3 {
+  font-size: 20pt;
+  margin: 25px 0 0 0;
+}
+.main .main_content h4 {
+  margin-bottom: -10px;
+}
+.main .main_content ol,
+.main .main_content ul {
+  padding: 0;
+  list-style-type: none;
+}
+.main .main_content figure.img {
+  margin-top: 1em;
+  padding: 1px;
+  border: 1px solid #ccc;
+  overflow: hidden;
+  position: relative;
+}
+.main .main_content figure.img img {
+  float: left;
+}
+.main .main_content figure.img:hover > figcaption {
+  bottom: 1px;
+}
+.main .main_content figure.img figcaption {
+  position: absolute;
+  bottom: -25px;
+  text-align: center;
+  width: 396px;
+  font: 9pt Arial, Helvetica, sans-serif;
+  background: #333;
+  padding: 4px 0;
+  color: #fff;
+  -webkit-transition: bottom 0.3s ease-in-out;
+  -moz-transition: bottom 0.3s ease-in-out;
+  -o-transition: bottom 0.3s ease-in-out;
+  -ms-transition: bottom 0.3s ease-in-out;
+  transition: bottom 0.3s ease-in-out;
+  -moz-opacity: 0.8;
+  filter: alpha(opacity=0.8);
+  opacity: 0.8;
+}
+.main .main_content aside {
+  margin-top: 20px;
+  float: right;
+}
+.main .main_content aside figure {
+  float: right;
+  margin: 0;
+}
+.main .main_content aside figcaption {
+  width: 120px;
+}
+.main .main_content p,
+.main .main_content li {
+  font: 11pt Arial, Tahoma, Verdana;
+  color: #575757;
+  line-height: 21px;
+  margin: 1.25em 0;
+}
+.main .company-list .item {
+  text-align: center;
+}
+/**
+ *	Footer CSS
+ *
+ *	@author		Andrej Babic
+ */
+.footer {
+  position: absolute;
+  bottom: -210px;
+  width: 100%;
+  overflow: hidden;
+  background-position: 0 0;
+  height: 66px;
+}
+.footer .container_16 {
+  overflow: visible;
+}
+.footer .inner {
+  width: 920px;
+  height: 45px;
+  float: left;
+  position: relative;
+  background: #fff;
+  box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.6);
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.footer .menu {
+  margin-top: 10px;
+  padding: 0;
+}
+.footer .menu li {
+  float: left;
+  width: 20%;
+  text-align: center;
+}
+.footer .menu li a {
+  font: italic 11pt Georgia, Helvetica, sans-serif;
+  color: #666;
+  text-decoration: none;
+}
+.footer .menu li a:hover {
+  text-decoration: underline;
+}
+.footer .menu li .icon {
+  background-position: -876px -240px;
+  width: 49px;
+  height: 57px;
+  position: absolute;
+  text-indent: -500px;
+  overflow: hidden;
+  top: 0;
+  margin-left: 50px;
+}
+@media print {
+  /**
+ *	Print CSS
+ *
+ *	@author		Andrej Babic
+ */
+  body {
+    width: 96%;
+    background: #fff;
+    font-size: 12pt;
+    margin: 0 auto;
+  }
+  h2,
+  h3,
+  p {
+    font: 'Times new roman', Georgia, sans-serif;
+    color: #000;
+  }
+  h1 {
+    font: bold 24pt Arial, Helvetica, sans-serif;
+    color: #000;
+    margin: 0;
+  }
+  hgroup h2 {
+    font-size: 12pt;
+    margin-top: 2pt;
+  }
+  h3 {
+    font-size: 16pt;
+  }
+  hgroup {
+    border-bottom: 1px solid #000;
+    margin-bottom: 15pt;
+  }
+  #content h2 {
+    font-size: 20pt;
+    margin: 0 0 2pt 0;
+  }
+  #content h3 {
+    font-size: 14pt;
+    margin: 4pt 0 0 1pt;
+  }
+  figure {
+    margin: 5pt 0 0 0;
+  }
+  aside figure {
+    margin: 0;
+  }
+  article {
+    border-bottom: 1px solid #666;
+    margin-bottom: 5pt;
+    padding-bottom: 20pt;
+  }
+  article:last-child {
+    border: 0;
+  }
+  article img {
+    border: 1px solid #666;
+  }
+  a {
+    color: #00e;
+  }
+  a:after {
+    content: " <" attr(href) "> ";
+    color: #666;
+    font-style: italic;
+    font-weight: normal;
+  }
+  .book,
+  .git,
+  .ribbon,
+  section > header,
+  .books,
+  nav,
+  article figcaption,
+  footer {
+    display: none;
+  }
+}
